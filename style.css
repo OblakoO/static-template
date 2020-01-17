@@ -1,7 +1,7 @@
 #square {
   width: 500px;
   height: 500px;
-  background: rgb(5, 5, 56);
+  background: #050538;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,4 +27,16 @@
   -moz-box-shadow: 0 0 30px rgb(0, 60, 255);
   -webkit-box-shadow: 0 0 30px rgb(0, 60, 255);
   box-shadow: 0 0 30px rgb(0, 60, 255);
+
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  -ms-transition: All 0.3s ease;
+  transition: All 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+#player:hover {
+  background-color: rgb(0, 60, 255);
 }
